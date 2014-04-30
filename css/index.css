@@ -1,0 +1,195 @@
+*,html{
+    margin:0;
+    padding:0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: translate3d(0,0,0);
+}
+body{
+    background: url("../img/bck1366.jpg") top center fixed #2fccef;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.wrapper{
+    width: 80%;
+    display: block;
+    clear: both;
+    margin: 3% auto 0 auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.logo{
+    width: 24%;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+
+}
+.logo img{
+    display: block;
+    position: relative;
+    margin-top: 38%;
+}
+.description{
+    display: block;
+    clear: both;
+    width: 100%;
+    margin: 1% 0;
+    position: relative;
+    margin-top: -10%;
+}
+.desc-left{
+    width: 60%;
+    display: inline-block;
+    margin-right: 8%;
+    float: left;
+    text-align: justify;
+
+}
+.desc-right{
+    width: 32%;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    transition:all 0.2s ease-in;
+}
+.desc-right:hover{
+
+    top:4px;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+h2{
+    font-weight: 300;
+    font-size: 2.8em;
+}
+.paragraph{
+    font-size: 1.4em;
+
+}
+.margin-intro{
+    position:relative;
+    margin-top: 6%;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+.question-top{
+    display: block;
+    clear: both;
+}
+.topleft{
+    display: inline-block;
+    clear: both;
+    width: 68%;
+    float: left;
+    margin:0 6%;
+}
+.topright{
+    display: inline-block;
+    clear: both;
+    width: 15%;
+    height: 0;
+    padding-bottom: 16%;
+    margin-left: 5%;
+    float: right;
+    margin-top: -20%;
+}
+.two{
+    width: 74%;
+}
+#question{
+    font-size: 1.6em;
+    margin-top: 2%;
+    text-align: justify;
+}
+.big_circle{
+    width: 90%;
+    height:0;
+    padding: 5%;
+    padding-bottom: 90%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    color: #333;
+    position: relative;
+    margin-top: -118%;
+
+}
+#inner-circle{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 12.5%;
+    height:0;
+
+    padding-bottom: 75%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    color: #333;
+    border: 8px solid #b3db0b;
+    display: block;
+    clear: both;
+}
+.values{
+    display: block;
+    clear: both;
+    color: #2fccef;
+    text-align: center;
+    width: 100%;
+    margin-top: -273%;
+    z-index: 4;
+    position: relative;
+}
+#time{
+    display: block;
+    clear: both;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.measure{
+    display: block;
+    clear: both;
+    font-size: 1.3em;
+    position: relative;
+    top:-12px;
+    font-weight: bold;
+}
+.base{
+    display: block;
+    clear: both;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    max-width: 100%;
+    height: auto;
+}
+.progress{
+     display: block;
+    clear: both;
+    position: relative;
+    top: -94%;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+}
+.top{
+     display: block;
+    clear: both;
+    position: relative;
+    top: -187.5%;
+    z-index: 3;
+    max-width: 100%;
+    height: auto;
+}
