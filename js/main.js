@@ -16,7 +16,7 @@ function chrono(){
         value_time=parseInt(new Date - start);
         value_time=value_time/1000;
         value_time=Math.floor(value_time);
-        if(value_time<=60){
+        if(value_time<=30){
             $('#time').html(value_time);
 
         }
@@ -25,7 +25,7 @@ function chrono(){
         value_time_g=parseInt(new Date - start);
         value_time_g=value_time_g/5;
         value_time_g=Math.floor(value_time_g);
-        if(value_time_g<=60){
+        if(value_time_g<=30){
 
             $('.progress').transition({ rotate: '+=15deg'});
         }
