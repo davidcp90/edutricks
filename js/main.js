@@ -1,6 +1,14 @@
 $( window ).load(function() {
-   chrono();
-   resizeContainers();
+$('#start').click(function(e) {
+    e.preventDefault();
+    $('#intro').fadeOut('fast');
+    $('#questions').fadeIn('fast');
+    resizeContainers();
+    $('#questions').transition({ opacity: 1, delay: 100 });
+    chrono();
+});
+
+
 });
 function resizeContainers(){
     h=$(window).height();
