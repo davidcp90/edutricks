@@ -158,6 +158,8 @@ h2{
     clear: both;
     font-size: 2.5em;
     font-weight: bold;
+    position: relative;
+    top:-12px;
 }
 .measure{
     display: block;
