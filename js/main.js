@@ -1,6 +1,14 @@
 $( window ).load(function() {
    chrono();
+   resizeContainers();
 });
+function resizeContainers(){
+    h=$(window).height();
+    ha=h*0.5;
+    hd=h*0.45;
+    $('.two').height(ha);
+    $('.full').height(hd);
+}
 function chrono(){
     var start = new Date;
 

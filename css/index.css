@@ -107,6 +107,14 @@ h2{
 }
 .two{
     width: 74%;
+    margin: 0 auto;
+    padding: 0;
+}
+.full{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: white;
 }
 #question{
     font-size: 1.6em;
@@ -149,7 +157,7 @@ h2{
     color: #2fccef;
     text-align: center;
     width: 100%;
-    margin-top: -274%;
+    margin-top: -273%;
     z-index: 4;
     position: relative;
 }
@@ -159,7 +167,7 @@ h2{
     font-size: 2.5em;
     font-weight: bold;
     position: relative;
-    top:-12px;
+    top:-8px;
 }
 .measure{
     display: block;
