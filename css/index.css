@@ -106,8 +106,16 @@ h2{
     margin-top: -20%;
 }
 .two{
-    width: 74%;
+    width: 100%;
     margin: 0 auto;
+    padding: 0;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+.centerabsolute{
+    width: 74%;
+    margin: 1% auto;
     padding: 0;
 }
 .full{
@@ -115,6 +123,9 @@ h2{
     margin: 0;
     padding: 0;
     background: white;
+    position:fixed;
+    bottom: 0;
+    left: 0;
 }
 #question{
     font-size: 1.6em;
@@ -174,7 +185,7 @@ h2{
     clear: both;
     font-size: 1.3em;
     position: relative;
-    top:-24px;
+    top:-20px;
     font-weight: bold;
 }
 .base{
@@ -195,6 +206,21 @@ h2{
     max-width: 100%;
     height: auto;
 }
+.downcenter{
+    width: 58%;
+}
+.choice{
+    display: inline-block;
+    padding: 0 12%;
+    margin-top: -12%;
+    width: 26%;
+}
+.cleft{
+    float: left;
+}
+.cright{
+    float: right;
+}
 .top{
      display: block;
     clear: both;
@@ -203,4 +229,16 @@ h2{
     z-index: 3;
     max-width: 100%;
     height: auto;
+}
+#trig-one,#trig-two{
+    cursor:pointer;
+    transition: 0.2s all ease-in;
+    position: relative;
+}
+#trig-one:hover,#trig-two:hover{
+    top: 4px;
+}
+.optiontext{
+    color:#333;
+    text-align: center;
 }
