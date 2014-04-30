@@ -4,12 +4,8 @@
     -webkit-backface-visibility: hidden;
     -webkit-transition: translate3d(0,0,0);
 }
-html,body { height:100% }
 body{
-    background-image: url("../img/bck1366.jpg");
-    background-position: top center;
-    -moz-background-size: auto, cover; /* Firefox 3.6 */
-    background-size: auto, cover;
+    background: url("../img/bck1366.jpg") top center fixed #2fccef;
     font-family: 'Lato', sans-serif;
     color: white;
 }
