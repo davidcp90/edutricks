@@ -2,14 +2,60 @@
 <html  lang="en">
 <head>
     <title>Edu Game</title>
-    <link rel="stylesheet" href="css/index.css' %}" type="text/css" />
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="images/favicon.ico"/>
 </head>
 
 <body>
+    <div class="wrapper">
+        <section id="intro" style="display: none;">
+            <div class="logo"><img src="img/logo.png" alt="Tutorya" /><div class="clearfix"></div></div>
+            <div class="description">
+                <div class="desc-left">
+                    <h2>Instructions</h2>
+                    <p class="paragraph margin-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, sequi,
+                    cupiditate, quod dolores totam impedit velit laudantium delectus ducimus adipisci eius commodi
+                    consectetur vel vero numquam possimus rerum aut non.</p>
+                </div>
+                <div class="desc-right">
+                    <img class="margin-intro" src="img/bt_start.png" alt="Start Baby!"/>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+        </div>
 
-    <script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"/></script>
+        <section id="questions">
+            <div class="wrapper two">
+            <div class="question-top">
+                <div class="topleft">
+                <h2 id="title">Question #1</h2>
+                <p id="question">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, dolor, animi quo
+                facere quam provident maxime enim inventore autem nobis quasi iste non tempore labore magni.
+                Nesciunt quod unde soluta.</p>
+                </div>
+                <div class="topright">
 
+
+                        <img src="img/base.png" alt="base" class="base">
+                        <img src="img/progress.png" alt="progress" class="progress">
+                        <img src="img/top.png" alt="top" class="top">
+                        <div class="values">
+                        <div id="time">0</div>
+                        <div class="measure">Seconds</div>
+                        </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            </div>
+            <div class="wrapper full"></div>
+        </section>
+        <section id="score"></section>
+
+    <script src="js/jquery.js" type="text/javascript"/></script>
+    <script src="js/transit.js" type="text/javascript"/></script>
+    <script src="js/main.js" type="text/javascript"/></script>
 </body>
 </html>
