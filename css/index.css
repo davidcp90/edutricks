@@ -103,7 +103,7 @@ h2{
     padding-bottom: 16%;
     margin-left: 5%;
     float: right;
-    margin-top: -20%;
+    margin-top: -12%;
 }
 .two{
     width: 100%;
@@ -115,7 +115,7 @@ h2{
 }
 .centerabsolute{
     width: 74%;
-    margin: 1% auto;
+    margin: 2% auto;
     padding: 0;
 }
 .full{
@@ -143,7 +143,7 @@ h2{
     background: white;
     color: #333;
     position: relative;
-    margin-top: -118%;
+    margin-top: -108%;
 
 }
 #inner-circle{
@@ -241,4 +241,5 @@ h2{
 .optiontext{
     color:#333;
     text-align: center;
+    font-size: 2.4em;
 }
