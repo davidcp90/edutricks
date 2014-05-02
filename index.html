@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html  lang="en">
 <head>
-    <title>Edu Game</title>
+    <title>Tutorya L.A EDU</title>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="css/index.css" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
@@ -9,6 +9,12 @@
 </head>
 
 <body>
+<div id="modalyeah" class="modal">
+    <h3>Awesome!</h3>
+</div>
+<div id="modalwrong" class="modal">
+    <h3>:( Wrong!</h3>
+</div>
 <div id="background-circles">
     <div class="wrapper">
         <section id="intro" >
@@ -31,7 +37,7 @@
             <div class="centerabsolute">
             <div class="question-top">
                 <div class="topleft">
-                <h2 id="title">Question #1</h2>
+                <h2 id="title">Question #<span id="qnum">1</span></h2>
                 <p id="question">At the current pace, how long will it take Latinamerica to get to a desirable education?</p>
                 </div>
                 <div class="topright">
@@ -48,21 +54,32 @@
                 </div>
                 <div class="clearfix"></div>
             </div>
+            <div id="badge-container">
+                <h3>Done!</h3>
+                <img src="img/icon_congrats.png" alt="done"/>
+                <p>Those are the reasons why we, at Tutorya, wake up every day</p>
+            </div>
             </div>
             </div>
             <div class="wrapper full">
                 <div class="centerabsolute downcenter">
+                    <div id="choice-container">
                     <div class="choice cleft">
-                        <img src="img/bt1.png" alt="button_one" id="trig-one" />
-                        <p class="optiontext"> 19 Years</p>
-                        <input type="hidden" id="choice-one" value="0">
+                        <img src="img/bt1.png" alt="button_one" id="trig-one" data-choice="0"/>
+                        <p class="optiontext" id="chu"> 19 Years</p>
+
                     </div>
                     <div class="choice cright">
-                        <img src="img/bt2.png" alt="button_two" id="trig-two"/>
-                        <p class="optiontext">20 Years</p>
-                        <input type="hidden" id="choice-two" value="0">
+                        <img src="img/bt2.png" alt="button_two" id="trig-two" data-choice="1"/>
+                        <p class="optiontext" id="chd">20 Years</p>
+
+                    </div>
+                    </div>
+                    <div id="scoredisplay">
+                        Your Score: <span id="uscore"></span>/520
                     </div>
                 </div>
+
             </div>
         </section>
         <section id="score"></section>
