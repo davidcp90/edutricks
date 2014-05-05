@@ -32,7 +32,7 @@ $( window ).load(function() {
         }
     });
 });
-var jsonp ='[{ "pregunta": "There more that 5 Latinamerican countries in the bottom quarter of the PISA results?", "opt_one": "True", "opt_two": "False", "answer": "choice-one"}, {"pregunta": "Proficiency in mathematics is a strong predictor of positive outcomes for young adults, influencing in their expected future earnings", "opt_one": "False", "opt_two": "True", "answer": "choice-two"}, {"pregunta": "Out of 65 countries in the PISA study, Colombia ranked 64 in math", "opt_one": "False", "opt_two": "True", "answer": "choice-two"} ]';
+var jsonp ='[{ "pregunta": "There are more than 5 Latin American countries in the bottom quarter of the PISA results?", "opt_one": "True", "opt_two": "False", "answer": "choice-one"}, {"pregunta": "Proficiency in mathematics is a strong predictor of positive outcomes for young adults, influencing in their expected future earnings", "opt_one": "False", "opt_two": "True", "answer": "choice-two"}, {"pregunta": "Out of 65 countries in the PISA study, Colombia ranked 64 in math", "opt_one": "False", "opt_two": "True", "answer": "choice-two"} ]';
 var ans_count=1,
 score=0;
 read_obj=JSON.parse(jsonp);
@@ -102,18 +102,16 @@ function loadNew(){
             $('#badge-container').fadeIn('fast').transition({ opacity: 1, delay: 100 });
             $('#choice-container').fadeOut('fast');
             $('#scoredisplay').fadeIn('fast').transition({ opacity: 1, delay: 100 });
+            $('#encourage-msg').fadeIn('fast');
             $('#uscore').html(score);
-            if(score<=200){
+            if(score<=260){
                 $('#score-msg').html('Low Score');
+                $('#encourage-msg').html("It seems you're optimistic about education in Latin America (or you have slow fingers  ), there's still a lot to be done and we are working on it!");
             }
-            else if(score >200 && score <=400){
-                $('#score-msg').html('Average Score');
-            }
-            else if(score>400){
-                $('#score-msg').html('High Score ! ');
-            }
+
             else{
-                $('#score-msg').html('Your Score');
+                $('#score-msg').html('High Score');
+                $('#encourage-msg').html("Congrats, seems that you understand the problem (and you have fast fingers  ), meet the solution.");
             }
         });
     }

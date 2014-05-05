@@ -276,7 +276,7 @@ font-weight:bold;
 font-size: 7em;
 text-shadow:0px 0px 0 rgb(196,6,12),-1px -1px 0 rgb(193,3,9),-2px -2px 0 rgb(189,-1,5),-3px -3px 0 rgb(185,-5,1),-4px -4px 0 rgb(182,-8,-2),-5px -5px 0 rgb(178,-12,-6),-6px -6px 0 rgb(175,-15,-9),-7px -7px 0 rgb(171,-19,-13),-8px -8px 0 rgb(167,-23,-17),-9px -9px 0 rgb(164,-26,-20),-10px -10px 0 rgb(160,-30,-24),-11px -11px 0 rgb(156,-34,-28),-12px -12px 0 rgb(153,-37,-31),-13px -13px 0 rgb(149,-41,-35), -14px -14px 0 rgb(145,-45,-39),-15px -15px 14px rgba(0,0,0,0.6),-15px -15px 1px rgba(0,0,0,0.5),0px 0px 14px rgba(0,0,0,.2);
 }
-#badge-container,#scoredisplay{
+#badge-container,#scoredisplay,#encourage-msg{
     width: 100%;
     display: block;
     clear: both;
@@ -297,8 +297,8 @@ text-shadow:0px 0px 0 rgb(196,6,12),-1px -1px 0 rgb(193,3,9),-2px -2px 0 rgb(189
     margin: 2% auto;
 }
 #scoredisplay{
-    color: #222;
-    font-size: 5em;
+    color: white;
+    font-size: 3em;
 }
 #uscore{
     color:#ffa746;
@@ -306,4 +306,9 @@ text-shadow:0px 0px 0 rgb(196,6,12),-1px -1px 0 rgb(193,3,9),-2px -2px 0 rgb(189
 #badge-container p{
     font-size: 1.8em;
     color: white;
+}
+#encourage-msg{
+    font-size: 3em;
+    color: #333;
+    opacity: 1;
 }
