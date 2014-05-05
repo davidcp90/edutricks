@@ -103,6 +103,18 @@ function loadNew(){
             $('#choice-container').fadeOut('fast');
             $('#scoredisplay').fadeIn('fast').transition({ opacity: 1, delay: 100 });
             $('#uscore').html(score);
+            if(score<=200){
+                $('#score-msg').html('Low Score');
+            }
+            else if(score >200 && score <=400){
+                $('#score-msg').html('Average Score');
+            }
+            else if(score>400){
+                $('#score-msg').html('High Score ! ');
+            }
+            else{
+                $('#score-msg').html('Your Score');
+            }
         });
     }
     function cheerUp(cheer){

@@ -253,6 +253,7 @@ h2{
 .modal{
 position: absolute;
 width: 100%;
+min-height:600px;
 display: block;
 display: none;
 z-index: 10;
