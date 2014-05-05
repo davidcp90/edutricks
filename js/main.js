@@ -32,7 +32,7 @@ $( window ).load(function() {
         }
     });
 });
-var jsonp ='[{ "pregunta": "There are more than 5 Latin American countries in the bottom quarter of the PISA results?", "opt_one": "True", "opt_two": "False", "answer": "choice-one"}, {"pregunta": "Proficiency in mathematics is a strong predictor of positive outcomes for young adults, influencing in their expected future earnings", "opt_one": "False", "opt_two": "True", "answer": "choice-two"}, {"pregunta": "Out of 65 countries in the PISA study, Colombia ranked 64 in math", "opt_one": "False", "opt_two": "True", "answer": "choice-two"} ]';
+var jsonp ='[{ "pregunta": "There are more than 5 Latin American countries in the bottom quarter of the PISA results", "opt_one": "True", "opt_two": "False", "answer": "choice-one"}, {"pregunta": "Proficiency in mathematics is a strong predictor of positive outcomes for young adults, influencing in their expected future earnings", "opt_one": "False", "opt_two": "True", "answer": "choice-two"}, {"pregunta": "Out of 65 countries in the PISA study, Colombia ranked 64 in math", "opt_one": "False", "opt_two": "True", "answer": "choice-two"} ]';
 var ans_count=1,
 score=0;
 read_obj=JSON.parse(jsonp);
